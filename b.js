@@ -15,4 +15,5 @@ git diff HEAD 查看工作区和仓库的差异，
 git add的反向命令git checkout，撤销工作区修改，即把暂存区最新版本转移到工作区，
 
 git commit的反向命令git reset HEAD，就是把仓库最新版本转移到暂存区。
+用git diff HEAD -- readme.txt命令可以查看工作区和版本库里面最新版本的区别
  */
