@@ -18,4 +18,15 @@ git commit的反向命令git reset HEAD，就是把仓库最新版本转移到�
 用git diff HEAD -- readme.txt命令可以查看工作区和版本库里面最新版本的区别
 
 我是在dev分支上开发的
+查看分支：git branch
+
+创建分支：git branch <name>
+
+切换分支：git checkout <name>或者git switch <name>
+
+创建+切换分支：git checkout -b <name>或者git switch -c <name>
+
+合并某分支到当前分支：git merge <name>
+
+删除分支：git branch -d <name>
  */
